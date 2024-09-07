@@ -1,0 +1,101 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/BarlowSemiCondensed-Black.ttf",
+      "sha1": "5a27fe4d827f7408765547524a9840b3f2c83be9"
+    },
+    {
+      "path": "src/assets/fonts/BarlowSemiCondensed-BlackItalic.ttf",
+      "sha1": "86ebbc9dded46865e2891bb962c2a922aa80bb6a"
+    },
+    {
+      "path": "src/assets/fonts/BarlowSemiCondensed-Bold.ttf",
+      "sha1": "7e4710cf81edf0ac272eb6e4f797270f06bd70d2"
+    },
+    {
+      "path": "src/assets/fonts/BarlowSemiCondensed-BoldItalic.ttf",
+      "sha1": "24df593b71db7b70b6c49bc6e8b71a13eb94490e"
+    },
+    {
+      "path": "src/assets/fonts/BarlowSemiCondensed-ExtraBold.ttf",
+      "sha1": "47d27083e79dc3599107cdeaa447eb8d022911ba"
+    },
+    {
+      "path": "src/assets/fonts/BarlowSemiCondensed-ExtraBoldItalic.ttf",
+      "sha1": "fe3f4804005f6083b4e756e0ee40523e0e215988"
+    },
+    {
+      "path": "src/assets/fonts/BarlowSemiCondensed-ExtraLight.ttf",
+      "sha1": "51496e900fad4ec7199071c910757aeebc4d2955"
+    },
+    {
+      "path": "src/assets/fonts/BarlowSemiCondensed-ExtraLightItalic.ttf",
+      "sha1": "75570bcda6f879939e603c450cb71d264ac5979b"
+    },
+    {
+      "path": "src/assets/fonts/BarlowSemiCondensed-Italic.ttf",
+      "sha1": "3aff2ad62aae48fa83cad7d797afd6c6c31ebeb3"
+    },
+    {
+      "path": "src/assets/fonts/BarlowSemiCondensed-Light.ttf",
+      "sha1": "310e0f64cc657cdaae005874ea5ab54008800d8a"
+    },
+    {
+      "path": "src/assets/fonts/BarlowSemiCondensed-LightItalic.ttf",
+      "sha1": "d6359f1e8a75b1116102f73a44bc2be4ad099ad6"
+    },
+    {
+      "path": "src/assets/fonts/BarlowSemiCondensed-Medium.ttf",
+      "sha1": "2bbffadce197b8f9537614b192372f802f9757b3"
+    },
+    {
+      "path": "src/assets/fonts/BarlowSemiCondensed-MediumItalic.ttf",
+      "sha1": "333b051a62ea710d11c3eaeaaf1148d81dbd6977"
+    },
+    {
+      "path": "src/assets/fonts/BarlowSemiCondensed-Regular.ttf",
+      "sha1": "b4b1130cbdf557408c6e1e10f74c2af1b90ac0d4"
+    },
+    {
+      "path": "src/assets/fonts/BarlowSemiCondensed-SemiBold.ttf",
+      "sha1": "053381ee38c987e25d8c1ad2848a6d3a41481613"
+    },
+    {
+      "path": "src/assets/fonts/BarlowSemiCondensed-SemiBoldItalic.ttf",
+      "sha1": "32823e9c7b85861cff0696036afac71cb6adfcce"
+    },
+    {
+      "path": "src/assets/fonts/BarlowSemiCondensed-Thin.ttf",
+      "sha1": "9476c6a17de8462af39c4bb0b832f5b4d7b30dc8"
+    },
+    {
+      "path": "src/assets/fonts/BarlowSemiCondensed-ThinItalic.ttf",
+      "sha1": "2edb2a4eb74d19e8660e98c26c315764128a3b11"
+    },
+    {
+      "path": "src/assets/fonts/DancingScript-Bold.ttf",
+      "sha1": "40e545d9cdad467a919c2a38c032bc4fdb69c01f"
+    },
+    {
+      "path": "src/assets/fonts/DancingScript-Medium.ttf",
+      "sha1": "575d42d95b4b562cbd91341e61ab754386ffeadd"
+    },
+    {
+      "path": "src/assets/fonts/DancingScript-Regular.ttf",
+      "sha1": "77b7bf804974618d28d7b73c79ea5d34c82cb704"
+    },
+    {
+      "path": "src/assets/fonts/DancingScript-SemiBold.ttf",
+      "sha1": "3d2e9198ccd497e0ccaf29b53cd2e4e9063dc78a"
+    },
+    {
+      "path": "src/assets/fonts/GreyQo-Regular.ttf",
+      "sha1": "3af4276e9841375c53b32dc83071b790932e6bd1"
+    },
+    {
+      "path": "src/assets/fonts/OFL.txt",
+      "sha1": "a41054987cd743a150c615ded0352cd1f28dd85a"
+    }
+  ]
+}

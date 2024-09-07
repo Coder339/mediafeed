@@ -26,14 +26,17 @@
 	<true/>
 	<key>NSAppTransportSecurity</key>
 	<dict>
-	  <!-- Do not change NSAllowsArbitraryLoads to true, or you will risk app rejection! -->
 		<key>NSAllowsArbitraryLoads</key>
 		<false/>
 		<key>NSAllowsLocalNetworking</key>
 		<true/>
 	</dict>
+	<key>NSPhotoLibraryUsageDescription</key>
+  	<string>We need your permission for photo library</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>We need your permission to save images to your photo library</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string></string>
+	<string/>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIRequiredDeviceCapabilities</key>
@@ -43,10 +46,40 @@
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
+		<string>UIInterfaceOrientationPortrait</string>
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+	<key>UIAppFonts</key>
+	<array>
+		<string>BarlowSemiCondensed-Black.ttf</string>
+		<string>BarlowSemiCondensed-BlackItalic.ttf</string>
+		<string>BarlowSemiCondensed-Bold.ttf</string>
+		<string>BarlowSemiCondensed-BoldItalic.ttf</string>
+		<string>BarlowSemiCondensed-ExtraBold.ttf</string>
+		<string>BarlowSemiCondensed-ExtraBoldItalic.ttf</string>
+		<string>BarlowSemiCondensed-ExtraLight.ttf</string>
+		<string>BarlowSemiCondensed-ExtraLightItalic.ttf</string>
+		<string>BarlowSemiCondensed-Italic.ttf</string>
+		<string>BarlowSemiCondensed-Light.ttf</string>
+		<string>BarlowSemiCondensed-LightItalic.ttf</string>
+		<string>BarlowSemiCondensed-Medium.ttf</string>
+		<string>BarlowSemiCondensed-MediumItalic.ttf</string>
+		<string>BarlowSemiCondensed-Regular.ttf</string>
+		<string>BarlowSemiCondensed-SemiBold.ttf</string>
+		<string>BarlowSemiCondensed-SemiBoldItalic.ttf</string>
+		<string>BarlowSemiCondensed-Thin.ttf</string>
+		<string>BarlowSemiCondensed-ThinItalic.ttf</string>
+		<string>DancingScript-Bold.ttf</string>
+		<string>DancingScript-Medium.ttf</string>
+		<string>DancingScript-Regular.ttf</string>
+		<string>DancingScript-SemiBold.ttf</string>
+		<string>GreyQo-Regular.ttf</string>
+	</array>
 </dict>
 </plist>
