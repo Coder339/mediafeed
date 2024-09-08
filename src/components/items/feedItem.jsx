@@ -29,15 +29,13 @@ const FeedItem = ({ item, index, navigation }) => {
                     style={{
                         height: index % 3 === 0 ? 180 : 260,
                         marginBottom: 10,
-                        marginHorizontal: 10
+                        marginHorizontal: 10,
+                        backgroundColor: 'grey'
                     }}
                 />
                 :
                 <Video
-                    // key={index}
                     ref={videoRef}
-                    // onBuffer={onBuffer}
-                    // muted={videoPaused}
                     onLoad={onLoad}
                     playInBackground={true}
                     onVideoLoad={onVideoLoad}
@@ -53,7 +51,6 @@ const FeedItem = ({ item, index, navigation }) => {
                         marginBottom: 10,
                         marginHorizontal: 10
                     }}
-                // controls={true}
                 />
             }
             {item?.type === 'video' &&

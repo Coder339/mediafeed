@@ -54,12 +54,14 @@ export default function Feed(props) {
     const _emlptyComponent = () => {
         return (
             <View style={{ marginTop: SCREEN_HEIGHT / 3, alignItems: 'center' }}>
-                <Text style={{ fontFamily: fonts.semiBoldFont, color: '#000', fontSize: 18 }}>No Media Found</Text>
+                <Text style={styles.noDataLabel}>No Media Found</Text>
             </View>
         )
     }
 
     const handleLoadMore = () => {
+
+        console.log('something wrong');
 
         if (!loading) {
             loadMedia(page)
@@ -95,8 +97,9 @@ export default function Feed(props) {
                 onEndReached={handleLoadMore}
                 ListFooterComponent={renderFooter}
                 ListEmptyComponent={_emlptyComponent}
-                onEndReachedThreshold={0.6}
+                onEndReachedThreshold={0.3}
                 showsVerticalScrollIndicator={false}
+                windowSize={10}
 
             />
         </SafeAreaView>
@@ -115,5 +118,10 @@ const styles = StyleSheet.create({
         color: '#000',
         fontFamily: fonts.semiBoldFont,
         textAlign: 'center'
+    },
+    noDataLabel: {
+        fontFamily: fonts.semiBoldFont,
+        color: '#000',
+        fontSize: 18
     }
 })
